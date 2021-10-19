@@ -1,0 +1,73 @@
+header, main, footer, ul {
+    margin-left: 10px;
+}
+
+header {
+    max-width: 2000;
+    margin: 0;
+    background-image: url('gallery/Pikmin-3-Deluxe-preview-3.jpeg');
+    height: 350px;
+}
+
+header h1 {
+    padding: 10px 0 0 20px;
+    color: white;
+}
+
+header h2 {
+    padding: 0 0 0 20px;
+    color: white;
+}
+
+
+
+/* main stuff here  */
+
+/* guessing game stuff here */
+
+#guessingGame {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding-left: 5px;
+
+    padding-right: 5px;
+
+    padding-bottom: 300px;
+
+    background-color: rgb(219, 208, 192);
+
+}
+
+#attempts {
+    font-size: 50px;
+}
+
+
+/* ul stuff here */
+
+main ul {
+    list-style: none;
+}
+
+
+main ul li:before {
+
+content: '✓';
+
+}
+
+ul li {
+    padding: 5px;
+}
+
+/* footer stuff here */
+
+footer {
+
+    text-align: center;
+
+    background-color: silver;
+}
