@@ -67,12 +67,17 @@ console.log('Congratulations! Here is your award!')
         case 1:
         case 2:
         case 3:
-            imagePath = 'gallery/blue_ribbon_1st_place_cutout-r879e60071d9b423986631315bb5b3742_x7saj_8byvr_704.webp'
+            imagePath = 'gallery/blue1stplaceribbon.png'
     break;
         case 4:
         case 5:
         case 6:
-            imagePath = 'gallery/Skyrim-Cheats-For-PC.png'
+            imagePath = 'gallery/red2ndplaceribbon.png'
+    break;
+        case 7:
+        case 8:
+        case 9: 
+            imagePath = 'gallery/yellow3rdplaceribbon.png'
     }
 
     const awardImg = document.createElement('img') // this creates an <img> element
